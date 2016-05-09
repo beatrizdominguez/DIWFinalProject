@@ -1,0 +1,266 @@
+body {
+	color: white;
+}
+
+a, a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+.background {
+	background: white;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	opacity: 0.3;
+	background-size: cover;
+	z-index: -2;
+}
+
+/* ** BACKGROUND IMAGES ** */
+.background.home {
+	background-image: url(../images/background.jpg);
+}
+
+.background.photoGallery {
+	background-image: url(../images/photoGallery2.jpg);
+}
+
+.background.videoGallery {
+	background-image: url(../images/videoGallery.jpg);
+}
+
+.background.about {
+	background-image: url(../images/studio.jpg);
+}
+
+.background.contact {
+	background-image: url(../images/contact2.jpg);
+}
+
+a.navbar-brand {
+	color: #98dafc !important;
+}
+
+.navbar, .navbar-default {
+	margin-top: 50px;
+	background: rgba(49, 44, 50, 0.49) !important;
+	border-color: #312c32;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:focus,
+	.navbar-default .navbar-nav>li>a:hover {
+	color: #FFF !important;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a
+	{
+	background: #98dafc !important;
+}
+
+.navbar-default .navbar-right>.active>a, .navbar-default .navbar-right>.open>a
+	{
+	background: #daad86 !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #98dafc;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover
+	{
+	background-color: rgba(0, 0, 0, .075);
+}
+
+body>.container {
+	padding: 10%;
+}
+
+/* BUTTONS */
+body .btn, body .btn.focus, body .btn:focus, body .btn:hover {
+	color: white;
+	border-radius: 0px;
+}
+
+.btn-blue {
+	background: #98dafc;
+}
+
+.btn-brown {
+	background: #daad86;
+}
+
+.btn-black {
+	background: #312c32;
+}
+
+.btn a {
+	color: white;
+}
+
+.center-text {
+	text-align: center;
+}
+
+footer {
+	min-height: 35px;
+	background-color: rgba(49, 44, 50, 0.49);
+}
+
+footer .copyright {
+	float: left;
+	margin-left: 5px;
+}
+
+footer .doc {
+	float: right;
+}
+
+/* SOCIAL MEDIA */
+.social-wrap {
+	position: fixed;
+	left: 0px;
+	top: 35%;
+}
+
+.media-wrap div {
+	max-height: 20px;
+	max-width: 20px;
+}
+
+.social-item {
+	max-height: 80px;
+	max-width: 80px;
+	text-align: center;
+	padding: 10px;
+}
+
+.social-item a {
+	color: white;
+}
+
+.side-share-twitter {
+	background: #00ACED;
+}
+
+.side-share-facebook {
+	background: #3B5998;
+}
+
+.side-share-linkedin {
+	background: #007BB6;
+}
+
+.side-share-pinterest {
+	background: #BD081C;
+}
+
+/* HOME */
+.title-box {
+	text-align: center;
+	margin-top: 10%;
+}
+
+.title {
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.subtitle a {
+	color: #312c32;
+	text-decoration: none;
+}
+
+.text_shadow {
+	text-shadow: 2px 2px #868686;
+}
+
+.blue_text {
+	color: #98dafc;
+}
+
+.brown_text {
+	color: #daad86;
+}
+
+.black_text {
+	color: #312c32;
+}
+
+.section {
+	text-align: center;
+	font-size: 3em;
+}
+
+.section a {
+	color: #fff;
+	text-decoration: none;
+}
+/* VIDEO GALLERY */
+.panel {
+	background-color: transparent;
+}
+
+.panel-bw, .panel-pets, .panel-nature {
+	display: none;
+}
+
+.panel-brown {
+	border-color: #daad86;
+	background-color: rgba(240, 173, 78, 0.13);
+}
+
+.portfolio {
+	max-height: 200px;
+	overflow: hidden;
+	padding: 0px;
+}
+
+.portfolio img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+.cover {
+	background: #312c32;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	opacity: 0;
+}
+
+.portfolio p {
+	height: 100%;
+	color: white;
+	padding-top: 25%;
+}
+
+/* ABOUT */
+img.studio {
+	width: 100%;
+}
+
+/* CONTACT */
+.info i {
+	padding: 5px;
+}
+
+/* MEDIA QUERYS */
+@media ( max-width : 768px) {
+	body>.container {
+		padding-top: 20%;
+	}
+	.social-wrap {
+		position: fixed;
+		width: 100%;
+		text-align: center;
+		top: 95%;
+	}
+	.social-item {
+		display: inline;
+	}
+}

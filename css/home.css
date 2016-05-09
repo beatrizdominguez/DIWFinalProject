@@ -1,0 +1,9 @@
+body {
+	background-image: url(../images/background.jpg);
+	color: white;
+}
+
+.navbar, .navbar-default{
+	margin-top: 50px;
+	background: rgba(245, 245, 245, 0.54) !important;
+}

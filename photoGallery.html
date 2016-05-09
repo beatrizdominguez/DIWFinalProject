@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>DRIFT STUDIO</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<!-- CSS -->
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/font-awesome.css" rel="stylesheet">
+<link href="css/bootstrap-theme.css" rel="stylesheet">
+<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="css/mystyles.css">
+
+<!-- JS -->
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/myscripts.js"></script>
+
+
+<!-- prueba -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"
+	type="text/javascript"></script>
+<script src="js/jquery.lighter.js" type="text/javascript"></script>
+<link href="css/jquery.lighter.css" rel="stylesheet" type="text/css" />
+
+
+
+
+
+</head>
+<body>
+	<div class="background photoGallery"></div>
+	<!-- MENU -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+					aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">Drift <span
+					class="brown_text">Studio</span></a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse"
+				aria-expanded="false" style="height: 1px;">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li class="active"><a href="photoGallery.html">Photo
+							gallery</a></li>
+					<li><a href="videoGallery.html">Video gallery</a></li>
+					<li><a href="about.html">About us</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li id="portrait" class="active" onclick="selectSection(this)"><a
+						href="#">Portrait</a></li>
+					<li id="bw" onclick="selectSection(this)"><a href="#">B&W</a></li>
+					<li id="pets" onclick="selectSection(this)"><a href="#">Pets</a></li>
+					<li id="nature" onclick="selectSection(this)"><a href="#">Nature
+							<span class="sr-only">(current)</span>
+					</a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</nav>
+	<div class="container">
+
+		<!-- PANELS -->
+
+		<!-- 		PORTRAIT -->
+		<div class="panel panel-portrait">
+			<div class="portfolio col-sm-12 col-md-4">
+				<img src="images/portrait/couple.jpg" />
+				<div class="cover">
+					<a href="images/portrait/couple.jpg" data-lighter>
+						<p>VIEW</p>
+					</a>
+				</div>
+			</div>
+			<div class="portfolio col-sm-12 col-md-4">
+				<img src="images/portrait/girl.jpg" />
+				<div class="cover">
+					<a href="images/portrait/girl.jpg" data-lighter>
+						<p>VIEW</p>
+					</a>
+				</div>
+			</div>
+			<div class="portfolio col-sm-12 col-md-4">
+				<img src="images/portrait/winter.jpg" />
+				<div class="cover">
+					<a href="images/portrait/winter.jpg" data-lighter>
+						<p>VIEW</p>
+					</a>
+				</div>
+			</div>
+			<div class="portfolio col-sm-12 col-md-4">
+				<img src="images/portrait/woman.jpg" />
+				<div class="cover">
+					<a href="images/portrait/woman.jpg" data-lighter>
+						<p>VIEW</p>
+					</a>
+				</div>
+			</div>
+			<div class="portfolio col-sm-12 col-md-4">
+				<img src="images/portrait/baby.jpg" />
+				<div class="cover">
+					<a href="images/portrait/baby.jpg" data-lighter>
+						<p>VIEW</p>
+					</a>
+				</div>
+			</div>
+			<div class="portfolio col-sm-12 col-md-4">
+				<img src="images/portrait/brother.jpg" />
+				<div class="cover">
+					<a href="images/portrait/brother.jpg" data-lighter>
+						<p>VIEW</p>
+					</a>
+				</div>
+			</div>
+			<div class="portfolio col-sm-12 col-md-4">
+				<img src="images/portrait/beauty.jpg" />
+				<div class="cover">
+					<a href="images/portrait/beauty.jpg" data-lighter>
+						<p>VIEW</p>
+					</a>
+				</div>
+			</div>
+			<div class="portfolio col-sm-12 col-md-4">
+				<img src="images/portrait/man.jpg" />
+				<div class="cover">
+					<a href="images/portrait/man.jpg" data-lighter>
+						<p>VIEW</p>
+					</a>
+				</div>
+			</div>
+			<div class="portfolio col-sm-12 col-md-4">
+				<img src="images/portrait/person.jpg" />
+				<div class="cover">
+					<a href="images/portrait/person.jpg" data-lighter>
+						<p>VIEW</p>
+					</a>
+				</div>
+			</div>
+			<div class="portfolio col-sm-12 col-md-4">
+				<img src="images/portrait/portrait.jpg" />
+				<div class="cover">
+					<a href="images/portrait/portrait.jpg" data-lighter>
+						<p>VIEW</p>
+					</a>
+				</div>
+			</div>
+			<div class="portfolio col-sm-12 col-md-4">
+				<img src="images/portrait/boy.jpg" />
+				<div class="cover">
+					<a href="images/portrait/boy.jpg" data-lighter>
+						<p>VIEW</p>
+					</a>
+				</div>
+			</div>
+			<div class="portfolio col-sm-12 col-md-4">
+				<img src="images/portrait/smoking.jpg" />
+				<div class="cover">
+					<a href="images/portrait/smoking.jpg" data-lighter>
+						<p>VIEW</p>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- B6W -->
+		<div class="panel panel-bw">
+			<div class="panel-body">
+
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/bnw/child.jpg" />
+					<div class="cover">
+						<a href="images/bnw/child.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/bnw/person.jpg" />
+					<div class="cover">
+						<a href="images/bnw/person.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/bnw/bnw.jpg" />
+					<div class="cover">
+						<a href="images/bnw/bnw.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/bnw/giraffe.jpg" />
+					<div class="cover">
+						<a href="images/bnw/giraffe.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/bnw/lightning.jpg" />
+					<div class="cover">
+						<a href="images/bnw/lightning.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/bnw/relay race
+					.jpg" />
+					<div class="cover">
+						<a href="images/bnw/relay race.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/bnw/road.jpg" />
+					<div class="cover">
+						<a href="images/bnw/road.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/bnw/skateboard.jpg" />
+					<div class="cover">
+						<a href="images/bnw/skateboard.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/bnw/tattoo.jpg" />
+					<div class="cover">
+						<a href="images/bnw/tattoo.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/bnw/lightning.jpg" />
+					<div class="cover">
+						<a href="images/bnw/lightning.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+		<!-- PETS -->
+		<div class="panel panel-pets">
+			<div class="panel-body">
+
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/pets/cats.jpg" />
+					<div class="cover">
+						<a href="images/pets/cats.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/pets/cat1.png" />
+					<div class="cover">
+						<a href="images/pets/cat1.png" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/pets/cat2.jpg" />
+					<div class="cover">
+						<a href="images/pets/cat2.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/pets/cat3.jpg" />
+					<div class="cover">
+						<a href="images/pets/cat3.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/pets/chihuahua.jpg" />
+					<div class="cover">
+						<a href="images/pets/chihuahua.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/pets/doberman.jpg" />
+					<div class="cover">
+						<a href="images/pets/doberman.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/pets/dog.jpg" />
+					<div class="cover">
+						<a href="images/pets/dog.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/pets/gorilla.jpg" />
+					<div class="cover">
+						<a href="images/pets/gorilla.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/pets/mastomys.jpg" />
+					<div class="cover">
+						<a href="images/pets/mastomys.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/pets/rat.jpg" />
+					<div class="cover">
+						<a href="images/pets/rat.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/pets/doberman.jpg" />
+					<div class="cover">
+						<a href="images/pets/doberman.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/pets/dog.jpg" />
+					<div class="cover">
+						<a href="images/pets/dog.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- NATURE -->
+		<div class="panel panel-nature">
+			<div class="panel-body">
+
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/nature/away1.jpg" />
+					<div class="cover">
+						<a href="images/nature/away1.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/nature/away2.jpg" />
+					<div class="cover">
+						<a href="images/nature/away2.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/nature/seagull.jpg" />
+					<div class="cover">
+						<a href="images/nature/seagull.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/nature/spring.jpg" />
+					<div class="cover">
+						<a href="images/nature/spring.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/nature/tree.jpg" />
+					<div class="cover">
+						<a href="images/nature/tree.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/nature/woodland.jpg" />
+					<div class="cover">
+						<a href="images/nature/woodland.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/nature/away1.jpg" />
+					<div class="cover">
+						<a href="images/nature/away1.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+				<div class="portfolio col-sm-12 col-md-4">
+					<img src="images/nature/spring.jpg" />
+					<div class="cover">
+						<a href="images/nature/spring.jpg" data-lighter>
+							<p>VIEW</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="social-wrap">
+			<div class="side-share-buttons">
+				<div class="social-item side-share-twitter" title="Twitter">
+					<a
+						href="https://twitter.com/share?text=Top+10+Social+Media+Plugins+for+WordPress+by+%40ChamberOnline+via+%40smallbiztrends&amp;url=http%3A%2F%2Fsmallbiztrends.com%2F2014%2F03%2Fsocial-media-plugins-for-wordpress.html"
+						class="sbutton" target="_blank" rel="nofollow"> <i
+						class="fa
+						fa-twitter fa-2x" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div class="social-item side-share-facebook" title="Facebook">
+					<a
+						href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://smallbiztrends.com/2014/03/social-media-plugins-for-wordpress.html&amp;p[images][0]=http://smallbiztrends.com/wp-content/uploads/2014/03/social-media-plugins-for-wordpress.jpg&amp;p[title]=Top+10+Social+Media+Plugins+for+WordPress&amp;p[summary]=%0D%0A%0D%0ASocial+media+is+a+crucial+component+for+any+online+marketing+strategy.+If+you%E2%80%99re+running+your+small+business+website+%26hellip%3B"
+						class="sbutton" target="_blank" rel="nofollow"> <i
+						class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+					</a>
+					<meta itemprop="interactionCount" content="FacebookLikes:232">
+				</div>
+				<div class="social-item side-share-linkedin" title="LinkedIn">
+					<a
+						href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://smallbiztrends.com/2014/03/social-media-plugins-for-wordpress.html&amp;title=Top+10+Social+Media+Plugins+for+WordPress&amp;summary=%0D%0A%0D%0ASocial+media+is+a+crucial+component+for+any+online+marketing+strategy.+If+you%E2%80%99re+running+your+small+business+website+%26hellip%3B&amp;source="
+						class="sbutton" target="_blank" rel="nofollow"><i
+						class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+				</div>
+				<div class="social-item side-share-pinterest" title="Pinterest">
+					<a
+						href="http://pinterest.com/pin/create%2Fbutton/?url=http%3A%2F%2Fsmallbiztrends.com%2F2014%2F03%2Fsocial-media-plugins-for-wordpress.html&amp;media=http%3A%2F%2Fsmallbiztrends.com%2Fwp-content%2Fuploads%2F2014%2F03%2Fsocial-media-plugins-for-wordpress.jpg&amp;description=Top+10+Social+Media+Plugins+for+WordPress"
+						class="sbutton" target="_blank" rel="nofollow"><i
+						class="fa fa-pinterest-p fa-2x" aria-hidden="true"></i></a>
+				</div>
+			</div>
+			<!-- 			END social media -->
+		</div>
+	</div>
+	<footer>
+		<div class="copyright">&#x24B8; 2016 Beatriz Domínguez</div>
+		<div class="doc">
+			<btn class="btn btn-brown"> <a href="documentation.pdf"
+				target="_blank">Documentation</a></btn>
+		</div>
+	</footer>
+</body>
+</html>
