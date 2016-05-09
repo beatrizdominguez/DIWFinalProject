@@ -238,6 +238,12 @@ footer .doc {
 	color: white;
 	padding-top: 25%;
 }
+a.lighter-close{
+	background: #98dafc;
+}
+a.lighter-close:hover{
+	background: #daad86;
+}
 
 /* ABOUT */
 img.studio {
